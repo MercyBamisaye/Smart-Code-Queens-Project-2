@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.Scontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.Supload{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+.Ssupport{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: #cacaca;
+    
+}
+span{
+    color: white;
+}
+.Ssong{
+    width: 230px;
+    height: 230px;
+    border-radius: 4px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+.Sep{
+    width: 230px;
+    height: 230px;
+    border-radius: 4px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+.Snon{
+    width: 230px;
+    height: 230px;
+    border-radius: 4px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+button{
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px;
+    cursor: pointer;
+    
+}
+.Sbtn:active{
+    background-color: orange;
+}
+
+
+
+@media (min-width:40em) {
+    margin: 20px auto 10px;  
+}
+

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/trending.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <div class="trending-songs">
+        <div class="heading">
+          <h1>MOST SUPPORTED PROJECTS</h1>
+        </div>
+        <div class="view-all">
+          <a href="#">VIEW ALL</a>
+        </div>
+      </div>
+      <div class="slider-container">
+        <div class="slides">
+          <div class="slide">
+            <a href="index.html"
+              ><img src="./Assets/Images/OsyBrownRomaRoma.jpeg" alt="Song 1"
+            /></a>
+            <div class="number-overlay-1">#1</div>
+            <h4>
+              Ossy Brown <br />
+              Roma Roma Mr. (Romantic) <br />
+            </h4>
+          </div>
+          <div class="slide">
+            <a href="#"
+              ><img src="./Assets/Images/BwoyDreddNoTime.jpeg" alt="Song 2"
+            /></a>
+            <div class="number-overlay-2">#2</div>
+
+            <h4>
+              BWOY DREDD<br />
+              No Time <br />
+
+              <h4 class="feat.">feat. Yxing st3pa</h4>
+            </h4>
+          </div>
+          <div class="slide">
+            <a href="#"
+              ><img src="./Assets/Images/KenteLiyon.jpeg" alt="Song 3"
+            /></a>
+            <div class="number-overlay-3">#3</div>
+
+            <h4>
+              Kente Liyon <br />
+              GTG
+            </h4>
+          </div>
+          <div class="slide">
+            <a href="#"
+              ><img src="./Assets/Images/OnaWonder.jpg" alt="Song 4"
+            /></a>
+            <div class="number-overlay-4">#4</div>
+
+            <h4>
+              Ona wonder <br />
+              I am me
+            </h4>
+          </div>
+          <div class="slide">
+            <a href="#"
+              ><img src="./Assets/Images/OpenMyWay.jpeg" alt="Song 5"
+            /></a>
+            <div class="number-overlay-5">#5</div>
+
+            <h4>
+              Kente Liyon <br />
+              Open my way
+            </h4>
+          </div>
+          <div class="slide">
+            <a href="#"
+              ><img src="./Assets/Images/Soldier.png" alt="Song 6"
+            /></a>
+            <div class="number-overlay-6">#6</div>
+
+            <h4>
+              Kente Liyon <br />
+              Soldier
+            </h4>
+          </div>
+          <div class="slide">
+            <a href="#"
+              ><img src="./Assets/Images/AfroLove.png" alt="Song 7"
+            /></a>
+            <div class="number-overlay-7">#7</div>
+            <h4>
+              Ric Hassani <br />
+              Afro Love
+            </h4>
+          </div>
+          <div class="slide">
+            <a href="#"
+              ><img src="./Assets/Images/KingSoundzvibe.jpeg" alt="Song 8"
+            /></a>
+            <div class="number-overlay-8">#8</div>
+            <h4>
+              King Soundzvibe<br />
+              confess <br />
+
+              <h4 class="feat.">feat.Olamatt</h4>
+            </h4>
+          </div>
+          <div class="slide">
+            <a href="#"
+              ><img src="./Assets/Images/BasedonBelieve.jpeg" alt="Song 9"
+            /></a>
+            <div class="number-overlay-9">#9</div>
+            <h4>
+              Dabright <br />
+              Based on believe
+            </h4>
+          </div>
+          <div class="slide">
+            <a href="#"
+              ><img src="./Assets/Images/RoyGooseBumps.jpeg" alt="Song 10"
+            /></a>
+            <div class="number-overlay-10">#10</div>
+            <h4>
+              Roy<br />
+              GOOSE BUMPS<br />
+              <h4 class="feats">feat.startick</h4>
+            </h4>
+          </div>
+          <div class="slide">
+            <a href="#"
+              ><img src="./Assets/Images/OnaWonder.jpg" alt="Song 11"
+            /></a>
+            <div class="number-overlay-11">#11</div>
+            <h4>
+              Ona wonder <br />
+              I am me
+            </h4>
+          </div>
+          <div class="slide">
+            <a href="#"><img src="./assets/image 2.jpg" alt="Song 12" /></a>
+            <div class="number-overlay-12">#12</div>
+            <h4>
+              BWOY DREDD<br />
+              No Time <br />
+
+              <h4 class="feat">feat. Yxing st3pa</h4>
+            </h4>
+          </div>
+
+          <!-- Repeat the above structure for each song -->
+        </div>
+        <div class="arrow">
+          <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+        </div>
+        <div class="arrow">
+          <a class="next" onclick="moveSlide(1)">&#10095;</a>
+        </div>
+      </div>
+      <div class="trending-song">
+        <div class="heading">
+          <h1>RECENTLY SUPPORTED</h1>
+        </div>
+        <div class="view-all">
+          <a href="#">VIEW ALL</a>
+        </div>
+      </div>
+      <div class="slider-container">
+        <div class="sliders">
+          <!-- For VIEW-ALL Buttons -->
+          <div class="slider">
+            <a href="#"
+              ><img src="./Assets/Images/StickMenToysRock.jpg" alt="Song 1"
+            /></a>
+            <div class="user-1">
+              <button type="button">
+                <div class="button-f">
+                  <div>
+                    <i class="fa-regular fa-user"></i>
+                  </div>
+                  <div class="button-text">
+                    <p>More Fyah</p>
+                    <!-- <h4>Audiomack App</h4> -->
+                  </div>
+                </div>
+              </button>
+            </div>
+
+            <h4>
+              Dasvibes, DJ Terry Moyaz<br />
+              Stickman Toys Rock...
+            </h4>
+          </div>
+          <div class="slider">
+            <a href="#"
+              ><img src="./Assets/Images/WallsAndMen.jpeg" alt="Song 2"
+            /></a>
+            <div class="user-2">
+              <button type="button">
+                <div class="button-f">
+                  <div>
+                    <i class="fa-regular fa-user"></i>
+                  </div>
+                  <div class="button-text">
+                    <p>bash.signaturealert</p>
+                    <!-- <h4>Audiomack App</h4> -->
+                  </div>
+                </div>
+              </button>
+            </div>
+            <h4>
+              Briller Whyte<br />
+              Walls and Men EP
+            </h4>
+          </div>
+          <div class="slider">
+            <a href="#"
+              ><img src="./Assets/Images/AfroLove.png" alt="Song 3"
+            /></a>
+            <div class="user-3">
+              <button type="button">
+                <div class="button-f">
+                  <div>
+                    <i class="fa-regular fa-user"></i>
+                  </div>
+                  <div class="button-text">
+                    <p>theHitboy</p>
+                    <!-- <h4>Audiomack App</h4> -->
+                  </div>
+                </div>
+              </button>
+            </div>
+            <h4>
+              Ric Hassani<br />
+              Afro Love
+            </h4>
+          </div>
+          <div class="slider">
+            <a href="#"
+              ><img src="./Assets/Images/MonakPatient.jpeg" alt="Song 4"
+            /></a>
+            <div class="user-4">
+              <button type="button">
+                <div class="button-f">
+                  <div>
+                    <i class="fa-regular fa-user"></i>
+                  </div>
+                  <div class="button-text">
+                    <p>ido Rock</p>
+                    <!-- <h4>Audiomack App</h4> -->
+                  </div>
+                </div>
+              </button>
+            </div>
+            <h4>
+              Monaky<br />
+              Patient Zero
+            </h4>
+          </div>
+          <div class="slider">
+            <a href="#"
+              ><img src="./Assets/Images/MonakyGoat.jpeg" alt="Song 5"
+            /></a>
+            <div class="user-5">
+              <button><i class="fa-regular fa-user"></i></button>
+            </div>
+            <h4>
+              Monaky<br />
+              The Goat
+            </h4>
+          </div>
+          <div class="slider">
+            <a href="#"
+              ><img src="./Assets/Images/AlhajaAponle.jpeg" alt="Song 6"
+            /></a>
+            <div class="user-6">
+              <button>
+                <i class="fa-regular fa-user"></i>
+              </button>
+            </div>
+            <h4>
+              Alhaja Kifayat Singer<br />
+              Aponle Obinrin
+            </h4>
+          </div>
+          <div class="slider">
+            <a href="#"
+              ><img src="./Assets/Images/RaWhowebe.jpeg" alt="Song 7"
+            /></a>
+            <div class="user-7">
+              <button>
+                <i class="fa-regular fa-user"></i>
+              </button>
+            </div>
+            <h4>
+              Ra<br />
+              who we be <br />
+              <h4 class="feat.">feat. Adrian patrick,otherwise</h4>
+            </h4>
+          </div>
+          <div class="slider">
+            <a href="#"
+              ><img
+                src="./Assets/Images/DayzDamselinDistress.jpeg"
+                alt="Song 8"
+            /></a>
+            <div class="user-8">
+              <button>
+                <i class="fa-regular fa-user"></i>
+              </button>
+            </div>
+            <h4>
+              Dayz ii <br />
+              Damsel in Distress (Totori)
+            </h4>
+          </div>
+
+          <!-- Repeat the above structure for each song -->
+        </div>
+        <div class="arrow">
+          <a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+        </div>
+        <div class="arrow">
+          <a class="next" onclick="moveSlides(1)">&#10095;</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
